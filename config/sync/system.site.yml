@@ -2,7 +2,7 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: 7495cc58-fd08-4001-aa05-28ddcd1d7f32
-name: 'Drush Site-Install'
+name: 'Headless Lab'
 mail: admin@example.com
 slogan: ''
 page:

@@ -1,0 +1,19 @@
+uuid: 61164cd3-5474-4cc4-b2a1-f03477856ccf
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+    - serialization
+    - user
+id: entity.node
+plugin_id: 'entity:node'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+    - xml
+  authentication:
+    - cookie

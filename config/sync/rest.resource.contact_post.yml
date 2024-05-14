@@ -1,0 +1,18 @@
+uuid: 25b2f96a-827a-4af3-a158-36a549983c71
+langcode: en
+status: true
+dependencies:
+  module:
+    - headless_custom
+    - serialization
+    - user
+id: contact_post
+plugin_id: contact_post
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie

@@ -1,0 +1,18 @@
+uuid: 3981b9f4-a916-427c-b009-0545b49eeb90
+langcode: en
+status: true
+dependencies:
+  module:
+    - config_expose
+    - serialization
+    - user
+id: config_get
+plugin_id: config_get
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

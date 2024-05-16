@@ -1,0 +1,7 @@
+config_expose.settings:
+  path: '/admin/config/system/config-expose'
+  defaults:
+    _form: '\Drupal\config_expose\Form\ConfigExposeForm'
+    _title: 'Config Expose Form'
+  requirements:
+    _permission: 'administer site configuration'

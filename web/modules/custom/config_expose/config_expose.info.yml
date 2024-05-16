@@ -1,0 +1,5 @@
+name: Config Expose
+description: Provides custom API endpoint to expose site configs.
+package: Custom
+type: module
+core_version_requirement: ^10
